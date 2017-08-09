@@ -1,9 +1,23 @@
 <?php 
+	/*
+	if(isset($_GET["modulo"])){
+		
+		switch ($_GET["modulo"]) {
+			case 'clientes':
+				$modelo = "cliente";
+				break;
 
-echo 'Index de Gas Control';
-<br/>
- echo 'Probando y conociendo GitHub';
-<br/>
- echo 'Seguimos realizando pruebas';
- ?>
+			case 'value':
+				# code...
+				break;
+			
+			default:
+				# code...
+				break;
+		}
+		
+	}
+	*/
+	require_once 'app/app_controller.php';
 
+?>
